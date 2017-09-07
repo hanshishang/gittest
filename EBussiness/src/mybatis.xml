@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration> 
+     <mappers>
+     	<!--此文件暂时没发现什么用  全有spring管理  -->
+  		<!--  <mapper url="file:///D:\eclipsework\EBussiness\src\com\ebs\mapper\UserBeanMapper.xml"/> 
+  		<mapper url="file:///D:\eclipsework\EBussiness\src\com\ebs\mapper\AbcMapper.xml"/> -->
+     </mappers>
+
+</configuration>

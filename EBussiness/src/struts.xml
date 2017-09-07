@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+ <!-- 注意 没建立一个action都需与其对应一个 配置  <action> --> 
+    <package name="struts"  extends="struts-default">
+		<action name="*Userinfo" class="com.ebs.action.UserinfoAction" method="{1}" >
+			<result name="success">/${tojsp}.jsp</result>
+			<result name="success1" type="chain">${tojsp}</result>
+			<result name="input">/${tojsp}.jsp</result>
+		</action>
+    </package>
+</struts>
